@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.3",
+    "@types/faker": "^6.6.9",
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "typescript": "^4.5.4"
+  }
+}
