@@ -1,8 +1,9 @@
 import { User } from './User';
 import { Company } from './Company';
+import { CustomMap } from './CustomMap';
 
-const employee = new User();
-employee.logRandomUser();
-
+const user = new User();
 const company = new Company();
-console.log(company.companyName);
+const map = new CustomMap('map');
+map.addMarker(user);
+map.addMarker(company);
